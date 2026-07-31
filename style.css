@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "DM Serif Display";
+    src:
+        url("./fonts/dm-serif-display/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "DM Serif Display Italic";
+    src:
+        url("./fonts/dm-serif-display/DMSerifDisplay-Italic.ttf");
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src:
+        url("./fonts/dm-sans/DMSans-VariableFont_opsz,wght.ttf");
+    font-variation-settings: "opsz" 48;
+    font-optical-sizing: none;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("./fonts/Manrope/Manrope-VariableFont_wght.ttf");
+}
+
+::selection {
+    background-color: #bfe0ff;
+    color: black;
+}
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    interpolate-size: allow-keywords;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: normal !important;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2rem;
+    margin: 0;
+    line-height: normal !important;
+}
+
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+    font-family: "Manrope", arial, sans-serif;
+    font-weight: 500;
+    color: black;
+    border: none;
+}
